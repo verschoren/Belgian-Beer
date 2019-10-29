@@ -1,0 +1,80 @@
+{
+  "stickers" : [
+    {
+      "filename" : "Brugse-zot.sticker"
+    },
+    {
+      "filename" : "Chimay.sticker"
+    },
+    {
+      "filename" : "Chouffe.sticker"
+    },
+    {
+      "filename" : "De-koninck-bolleke2_300.sticker"
+    },
+    {
+      "filename" : "Duvel.sticker"
+    },
+    {
+      "filename" : "Hoegaarden (2).sticker"
+    },
+    {
+      "filename" : "Jupiler (1).sticker"
+    },
+    {
+      "filename" : "Kwak.sticker"
+    },
+    {
+      "filename" : "Kwaremont.sticker"
+    },
+    {
+      "filename" : "Leffe-Blond300.sticker"
+    },
+    {
+      "filename" : "Leffe-Brune300.sticker"
+    },
+    {
+      "filename" : "Liefmans.sticker"
+    },
+    {
+      "filename" : "Maes.sticker"
+    },
+    {
+      "filename" : "Omer.sticker"
+    },
+    {
+      "filename" : "Palm.sticker"
+    },
+    {
+      "filename" : "Piraat.sticker"
+    },
+    {
+      "filename" : "saison.sticker"
+    },
+    {
+      "filename" : "St-bernarndus300.sticker"
+    },
+    {
+      "filename" : "Stella-Artois (1).sticker"
+    },
+    {
+      "filename" : "Tripel-Karmeliet_02300.sticker"
+    },
+    {
+      "filename" : "Vedett-extra-Blond.sticker"
+    },
+    {
+      "filename" : "Westmalle-Brune300.sticker"
+    },
+    {
+      "filename" : "Westmalle300.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

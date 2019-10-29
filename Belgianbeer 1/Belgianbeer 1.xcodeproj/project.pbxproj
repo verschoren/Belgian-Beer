@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFD523831D8E877A00A3084F /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFD523821D8E877A00A3084F /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FFD523871D8E877A00A3084F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = FFD523861D8E877A00A3084F /* Stickers.xcstickers */; };
+		FFD523881D8E877A00A3084F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = FFD523861D8E877A00A3084F /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD523841D8E877A00A3084F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD523781D8E877A00A3084F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD523811D8E877A00A3084F;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFD5238E1D8E877A00A3084F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FFD523831D8E877A00A3084F /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFD5237E1D8E877A00A3084F /* Belgianbeer 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belgianbeer 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD523821D8E877A00A3084F /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD523861D8E877A00A3084F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FFD523771D8E877A00A3084F = {
+			isa = PBXGroup;
+			children = (
+				FFD523861D8E877A00A3084F /* Stickers.xcstickers */,
+				FFD5237F1D8E877A00A3084F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD5237F1D8E877A00A3084F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5237E1D8E877A00A3084F /* Belgianbeer 1.app */,
+				FFD523821D8E877A00A3084F /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD5237D1D8E877A00A3084F /* Belgianbeer 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD5238F1D8E877A00A3084F /* Build configuration list for PBXNativeTarget "Belgianbeer 1" */;
+			buildPhases = (
+				FFD5237C1D8E877A00A3084F /* Resources */,
+				FFD5238E1D8E877A00A3084F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD523851D8E877A00A3084F /* PBXTargetDependency */,
+			);
+			name = "Belgianbeer 1";
+			productName = "Belgianbeer 1";
+			productReference = FFD5237E1D8E877A00A3084F /* Belgianbeer 1.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		FFD523811D8E877A00A3084F /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD5238B1D8E877A00A3084F /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				FFD523801D8E877A00A3084F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = FFD523821D8E877A00A3084F /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD523781D8E877A00A3084F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Thomas Verschoren";
+				TargetAttributes = {
+					FFD5237D1D8E877A00A3084F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWE5WW6J4L;
+						ProvisioningStyle = Automatic;
+					};
+					FFD523811D8E877A00A3084F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWE5WW6J4L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFD5237B1D8E877A00A3084F /* Build configuration list for PBXProject "Belgianbeer 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFD523771D8E877A00A3084F;
+			productRefGroup = FFD5237F1D8E877A00A3084F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD5237D1D8E877A00A3084F /* Belgianbeer 1 */,
+				FFD523811D8E877A00A3084F /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD5237C1D8E877A00A3084F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD523881D8E877A00A3084F /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD523801D8E877A00A3084F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD523871D8E877A00A3084F /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFD523851D8E877A00A3084F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD523811D8E877A00A3084F /* StickerPackExtension */;
+			targetProxy = FFD523841D8E877A00A3084F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFD523891D8E877A00A3084F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFD5238A1D8E877A00A3084F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD5238C1D8E877A00A3084F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = JWE5WW6J4L;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verschoren.Belgianbeer-1.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFD5238D1D8E877A00A3084F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = JWE5WW6J4L;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verschoren.Belgianbeer-1.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FFD523901D8E877A00A3084F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JWE5WW6J4L;
+				INFOPLIST_FILE = "Belgianbeer 1/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verschoren.Belgianbeer-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD523911D8E877A00A3084F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JWE5WW6J4L;
+				INFOPLIST_FILE = "Belgianbeer 1/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verschoren.Belgianbeer-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD5237B1D8E877A00A3084F /* Build configuration list for PBXProject "Belgianbeer 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD523891D8E877A00A3084F /* Debug */,
+				FFD5238A1D8E877A00A3084F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD5238B1D8E877A00A3084F /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD5238C1D8E877A00A3084F /* Debug */,
+				FFD5238D1D8E877A00A3084F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD5238F1D8E877A00A3084F /* Build configuration list for PBXNativeTarget "Belgianbeer 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD523901D8E877A00A3084F /* Debug */,
+				FFD523911D8E877A00A3084F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD523781D8E877A00A3084F /* Project object */;
+}
